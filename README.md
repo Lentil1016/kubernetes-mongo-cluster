@@ -7,9 +7,7 @@
 - for kubernetes
 
 ```
-$ git clone https://github.com/Lentil1016/kubernetes-mongo-cluster.git
-$ cd kubernetes-mongo-cluster
-$ kubectl apply -f mongo.yaml
+$ kubectl apply -f https://github.com/Lentil1016/kubernetes-mongo-cluster/raw/master/mongo.yaml
 
 # The job mongo-bootup will boot up the cluster
 $ kubectl logs mongo-bootup-9tlxs
